@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ImpactOh — Smart Impact Detection &amp; Customisable Luggage Accessory</title>
+  <meta name="description" content="ImpactOh is a customisable luggage accessory that adds personality to your bag while incorporating mechanical impact detection as a functional feature.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="logo.jpeg">
+  <link rel="apple-touch-icon" href="logo.jpeg">
+
+  <!-- Main Stylesheet (No frameworks, pure CSS3) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       NAVIGATION BAR (STICKY & RESPONSIVE VIA PURE CSS)
+       ========================================================================= -->
+  <header class="navbar" id="top-nav">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="#home" class="nav-brand" aria-label="ImpactOh Homepage">
+        <img src="logo.jpeg" alt="ImpactOh - Luggage Accessory with Impact Detection" class="nav-logo-img">
+      </a>
+
+      <!-- Pure CSS Mobile Menu Toggle Checkbox -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle Navigation Menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Menu Icon">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </label>
+
+      <!-- Navigation Links -->
+      <nav class="nav-links" id="primary-navigation">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#problem" class="nav-item">Problem</a>
+        <a href="#research" class="nav-item">Benchmarking</a>
+        <a href="#market-research" class="nav-item">Research</a>
+        <a href="#development" class="nav-item">Journey</a>
+        <a href="#materials" class="nav-item">Materials</a>
+        
+        <div class="nav-cta-wrap">
+          <a href="#development" class="btn btn-primary btn-sm">Explore Journey</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         1. HERO SECTION
+         ========================================================================= -->
+    <section class="section hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Left Column: Narrative & Calls to Action -->
+          <div class="hero-content">
+            <div class="hero-badge-wrap">
+              <div class="journey-badge">
+                <span class="badge-dot"></span>
+                <span>40-Day Development Journey</span>
+              </div>
+            </div>
+
+            <h1 class="hero-headline">Meet <span>ImpactOh</span></h1>
+            
+            <p class="hero-subheading">Smart impact detection, redesigned for modern luggage.</p>
+            
+            <p class="hero-supporting">
+              ImpactOh is a customisable luggage accessory that adds personality to your bag while incorporating impact detection as an additional functional feature.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#development" class="btn btn-primary btn-lg">Explore the Journey</a>
+              <a href="#about" class="btn btn-secondary btn-lg">About ImpactOh</a>
+            </div>
+
+            <div class="hero-meta">
+              <div class="hero-meta-item">
+                <span class="hero-meta-number">40 Days</span>
+                <span class="hero-meta-label">Concept to Prototype</span>
+              </div>
+              <div class="hero-meta-item">
+                <span class="hero-meta-number">Mechanical</span>
+                <span class="hero-meta-label">Inertial Response</span>
+              </div>
+              <div class="hero-meta-item">
+                <span class="hero-meta-number">Modular</span>
+                <span class="hero-meta-label">Luggage Personalisation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Right Column: Large Product Visual Card -->
+          <div class="hero-visual-area">
+            <article class="hero-visual-card">
+              <div class="visual-card-header">
+                <span class="visual-pill">CAD RENDERING • STAGE 04</span>
+                <span class="visual-status">Concept Integrated</span>
+              </div>
+              
+              <figure class="visual-image-wrapper">
+                <img src="assets/product.png" alt="ImpactOh Product Render and Concept Overview" width="1200" height="800">
+              </figure>
+
+              <div class="visual-card-footer">
+                <div class="spec-chip">
+                  <span class="spec-chip-label">Form Factor</span>
+                  <span class="spec-chip-val">Compact Luggage Accessory</span>
+                </div>
+                <div class="spec-chip">
+                  <span class="spec-chip-label">Functional Core</span>
+                  <span class="spec-chip-val">Mechanical Shock Indicator</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         2. ABOUT IMPACTOH
+         ========================================================================= -->
+    <section class="section" id="about">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-badge">01 • Project Overview</span>
+          <h2 class="section-title">What is ImpactOh?</h2>
+          <p class="section-subtitle">A balanced fusion of visual luggage expression and transit impact awareness.</p>
+        </header>
+
+        <div class="about-narrative">
+          <p class="narrative-lead">
+            <strong>ImpactOh</strong> is a luggage-focused product concept developed to address the problem of unnoticed impacts during transportation and handling. The project began with the idea of creating a compact, affordable and single-use impact indicator and gradually evolved into a customisable luggage accessory with impact detection as an additional functional feature.
+          </p>
+        </div>
+
+        <div class="cards-grid-3">
+          
+          <article class="info-card">
+            <div class="card-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+            </div>
+            <span class="card-number">Feature 01</span>
+            <h3 class="card-title">Impact Detection</h3>
+            <p class="card-desc">Detect and indicate significant impact events to inform travelers if their bag experienced excessive physical shock during handling.</p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <span class="card-number">Feature 02</span>
+            <h3 class="card-title">Customisation</h3>
+            <p class="card-desc">Give luggage a more personal and visually attractive identity through modular, customizable exterior faceplates and collectible designs.</p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="9" y1="3" x2="9" y2="21"></line>
+              </svg>
+            </div>
+            <span class="card-number">Feature 03</span>
+            <h3 class="card-title">Compact Design</h3>
+            <p class="card-desc">Develop the mechanism within a compact luggage-friendly form that clips effortlessly onto standard baggage handles, straps, or zippers.</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. THE PROBLEM
+         ========================================================================= -->
+    <section class="section section-alt" id="problem">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-badge">02 • Problem Space</span>
+          <h2 class="section-title">The Problem</h2>
+          <p class="section-subtitle">Baggage handles millions of transfers, yet impact transparency remains limited.</p>
+        </header>
+
+        <div class="problem-narrative">
+          <p class="problem-lead">
+            Luggage can experience impacts during transportation, handling and movement, but these events may go unnoticed by the owner. Existing impact indicators address this problem, but many solutions are primarily designed for industrial and logistics applications.
+          </p>
+        </div>
+
+        <!-- Visual Problem Flow Sequence -->
+        <div class="problem-flow" aria-label="Visual Problem Flow Diagram">
+          
+          <div class="flow-step">
+            <div class="step-node">✈️</div>
+            <span class="step-order">STAGE 01</span>
+            <span class="step-label">Transportation</span>
+          </div>
+
+          <div class="flow-arrow" aria-hidden="true">→</div>
+
+          <div class="flow-step">
+            <div class="step-node">🧳</div>
+            <span class="step-order">STAGE 02</span>
+            <span class="step-label">Handling</span>
+          </div>
+
+          <div class="flow-arrow" aria-hidden="true">→</div>
+
+          <div class="flow-step warning-step">
+            <div class="step-node warning-node">💥</div>
+            <span class="step-order">STAGE 03</span>
+            <span class="step-label">Unexpected Impact</span>
+          </div>
+
+          <div class="flow-arrow" aria-hidden="true">→</div>
+
+          <div class="flow-step warning-step">
+            <div class="step-node warning-node">👁️</div>
+            <span class="step-order">STAGE 04</span>
+            <span class="step-label">No Immediate Visibility</span>
+          </div>
+
+          <div class="flow-arrow" aria-hidden="true">→</div>
+
+          <div class="flow-step warning-step">
+            <div class="step-node warning-node">⚠️</div>
+            <span class="step-order">STAGE 05</span>
+            <span class="step-label">Potential Unnoticed Damage</span>
+          </div>
+
+        </div>
+
+        <p class="problem-footnote">
+          * Problem mapping based on baggage movement stages during multimodal transit. No unsupported damage claims or unverifiable statistical estimates.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. EXISTING SOLUTIONS & COMPETITOR RESEARCH
+         ========================================================================= -->
+    <section class="section" id="research">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-badge">03 • Market Benchmarking</span>
+          <h2 class="section-title">Existing Solutions &amp; Competitor Research</h2>
+          <p class="section-subtitle">Analyzing industrial shock indicators to identify the opportunity for consumer luggage.</p>
+        </header>
+
+        <div class="research-intro-box">
+          <p>
+            The first stage of the project focused heavily on understanding existing impact-detection products and competitors. The team investigated existing impact indicators, their working principles, functionality, pricing, usability, applications, target customers, product form, and industrial versus consumer orientation. Existing commercial impact indicators such as <strong>ShockWatch</strong> were studied as key examples of the category to understand established physical sensing mechanisms and industry implementations.
+          </p>
+        </div>
+
+        <!-- Research Dimensions Grid -->
+        <div class="research-aspects-grid">
+          <div class="aspect-card">
+            <h4 class="aspect-title">Working Principles</h4>
+            <p class="aspect-desc">Studied capillary fluid release, mechanical springs, and surface-tension disruption triggers.</p>
+          </div>
+          <div class="aspect-card">
+            <h4 class="aspect-title">Functionality &amp; Form</h4>
+            <p class="aspect-desc">Evaluated single-use industrial adhesive labels and tubular sensor envelopes.</p>
+          </div>
+          <div class="aspect-card">
+            <h4 class="aspect-title">Pricing &amp; Usability</h4>
+            <p class="aspect-desc">Analyzed industrial procurement costs and single-use logistics workflows.</p>
+          </div>
+          <div class="aspect-card">
+            <h4 class="aspect-title">Target Customers</h4>
+            <p class="aspect-desc">Identified that solutions cater to freight carriers and corporate shippers rather than personal luggage.</p>
+          </div>
+        </div>
+
+        <!-- Comprehensive Comparison Table -->
+        <div class="table-responsive">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th class="col-aspect">Aspect</th>
+                <th class="col-existing">Existing Impact Indicators (e.g. ShockWatch)</th>
+                <th class="col-impactoh">ImpactOh Direction</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="aspect-name">Primary purpose</td>
+                <td class="existing-cell">Industrial shipping and supply-chain transit monitoring</td>
+                <td class="impactoh-cell">Luggage personality and consumer impact awareness</td>
+              </tr>
+              <tr>
+                <td class="aspect-name">Target usage</td>
+                <td class="existing-cell">Single-use industrial shipping crates and commercial pallets</td>
+                <td class="impactoh-cell">Everyday consumer travel and repeated luggage attachment</td>
+              </tr>
+              <tr>
+                <td class="aspect-name">Product form</td>
+                <td class="existing-cell">Industrial adhesive warning sticker or glass capillary tube</td>
+                <td class="impactoh-cell">Durable, clip-on luggage accessory with modular faceplates</td>
+              </tr>
+              <tr>
+                <td class="aspect-name">Customisation</td>
+                <td class="existing-cell">None — standard utilitarian warning labels</td>
+                <td class="impactoh-cell">High — customizable exterior aesthetic and collectibility</td>
+              </tr>
+              <tr>
+                <td class="aspect-name">Consumer appeal</td>
+                <td class="existing-cell">Low — strictly utilitarian and industrial appearance</td>
+                <td class="impactoh-cell">High — modern travel aesthetic and personal lifestyle appeal</td>
+              </tr>
+              <tr>
+                <td class="aspect-name">Impact detection</td>
+                <td class="existing-cell">Capillary fluid dispersion or single-axis indicator</td>
+                <td class="impactoh-cell">Movement-based mechanical shock trigger mechanism</td>
+              </tr>
+              <tr>
+                <td class="aspect-name">Development focus</td>
+                <td class="existing-cell">Logistics carrier liability and freight damage disputes</td>
+                <td class="impactoh-cell">Consumer utility, luggage identity and physical peace of mind</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. MARKET RESEARCH
+         ========================================================================= -->
+    <section class="section section-alt" id="market-research">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-badge">04 • Discovery &amp; Insight</span>
+          <h2 class="section-title">Market Research</h2>
+          <p class="section-subtitle">Evaluating the standalone viability of impact sensing in consumer travel.</p>
+        </header>
+
+        <div class="market-grid">
+          
+          <div class="market-overview-card">
+            <h3>Week 2 Research Findings</h3>
+            <p>
+              During Week 2, the team conducted detailed market research evaluating existing competitors, product functionality, pricing models, usability barriers, target markets, and the potential consumer market for a standalone impact-detection product.
+            </p>
+            
+            <div class="research-pillars">
+              <div class="pillar-item">
+                <span class="pillar-bullet">•</span>
+                <span class="pillar-text">Competitor product functionality &amp; form factor assessment</span>
+              </div>
+              <div class="pillar-item">
+                <span class="pillar-bullet">•</span>
+                <span class="pillar-text">Consumer price sensitivity for travel accessories</span>
+              </div>
+              <div class="pillar-item">
+                <span class="pillar-bullet">•</span>
+                <span class="pillar-text">Usability barriers of single-use sensors in retail environments</span>
+              </div>
+              <div class="pillar-item">
+                <span class="pillar-bullet">•</span>
+                <span class="pillar-text">Analysis of everyday travel habits and luggage attachment methods</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlighted Insight Card -->
+          <aside class="insight-callout-card">
+            <div>
+              <span class="insight-tag">Critical Project Pivot</span>
+              <p class="insight-quote">
+                “Impact detection is an occasional-use feature and may not provide enough consumer motivation on its own.”
+              </p>
+            </div>
+            <p class="insight-pivot">
+              This insight led the team to explore an additional everyday value proposition: transforming the product into an attractive, customizable luggage accessory that travelers enjoy carrying every day.
+            </p>
+          </aside>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. 40-DAY DEVELOPMENT JOURNEY
+         ========================================================================= -->
+    <section class="section" id="development">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-badge">05 • Sprint Timeline</span>
+          <h2 class="section-title">Our 40-Day Journey</h2>
+          <p class="section-subtitle">A weekly breakdown of engineering, design iteration, and strategic milestones.</p>
+        </header>
+
+        <div class="weeks-grid">
+          
+          <!-- WEEK 1 -->
+          <article class="week-card">
+            <div>
+              <div class="week-header">
+                <span class="week-label">WEEK 01</span>
+                <span class="week-timing">Days 01–07</span>
+              </div>
+              <h3 class="week-title">Idea research and existing solution research</h3>
+              <ul class="week-content-list">
+                <li>Problem identification across transit baggage movement</li>
+                <li>Existing impact-indicator research and technical review</li>
+                <li>Competitor research benchmarking category solutions</li>
+                <li>Functionality comparison between indicator types</li>
+                <li>Pricing and usability research across commercial applications</li>
+                <li>Market opportunity analysis for luggage protection</li>
+              </ul>
+            </div>
+            <div class="week-outcome-box">
+              <span class="week-outcome-header">Sprint Outcome</span>
+              <p class="week-outcome-text">A clear understanding of existing competitors, market solutions and the opportunity for ImpactOh.</p>
+            </div>
+          </article>
+
+          <!-- WEEK 2 -->
+          <article class="week-card">
+            <div>
+              <div class="week-header">
+                <span class="week-label">WEEK 02</span>
+                <span class="week-timing">Days 08–14</span>
+              </div>
+              <h3 class="week-title">Market research and parallelly mechanism research</h3>
+              <ul class="week-content-list">
+                <li>Detailed market research on customer use frequency</li>
+                <li>Competitor analysis across retail travel gear</li>
+                <li>Existing product comparison on packaging versus luggage</li>
+                <li>Research into possible mechanical mechanisms</li>
+                <li>Spring dynamics and movement thresholds</li>
+                <li>Mechanical locking concepts to retain shock state</li>
+              </ul>
+            </div>
+            <div class="week-outcome-box">
+              <span class="week-outcome-header">Sprint Outcome</span>
+              <p class="week-outcome-text">The team identified the need for an additional value proposition while simultaneously developing the technical direction.</p>
+            </div>
+          </article>
+
+          <!-- WEEK 3 -->
+          <article class="week-card">
+            <div>
+              <div class="week-header">
+                <span class="week-label">WEEK 03</span>
+                <span class="week-timing">Days 15–21</span>
+              </div>
+              <h3 class="week-title">Customization accessory concept and mechanism changes according to design</h3>
+              <ul class="week-content-list">
+                <li>Introduced the customisable luggage accessory concept</li>
+                <li>Repositioned impact detection as an additional feature</li>
+                <li>Explored visual/customisation possibilities and faceplates</li>
+                <li>Continued mechanical mechanism development</li>
+                <li>Adapted the mechanism envelope to the evolving product design</li>
+              </ul>
+            </div>
+            <div class="week-outcome-box">
+              <span class="week-outcome-header">Sprint Outcome</span>
+              <p class="week-outcome-text">The consumer-facing concept and initial technical mechanism were established.</p>
+            </div>
+          </article>
+
+          <!-- WEEK 4 -->
+          <article class="week-card">
+            <div>
+              <div class="week-header">
+                <span class="week-label">WEEK 04</span>
+                <span class="week-timing">Days 22–28</span>
+              </div>
+              <h3 class="week-title">Mechanism Finalisation and CAD file designing</h3>
+              <ul class="week-content-list">
+                <li>Developed the physical product structure and housing</li>
+                <li>Created parametric 3D/CAD solid models</li>
+                <li>Integrated the mechanical mechanism into CAD assemblies</li>
+                <li>Checked internal component placement and alignment</li>
+                <li>Checked mechanical clearances and movement boundaries</li>
+                <li>Modified mechanism according to external product dimensions</li>
+              </ul>
+            </div>
+            <div class="week-outcome-box">
+              <span class="week-outcome-header">Sprint Outcome</span>
+              <p class="week-outcome-text">The mechanism and product structure became an integrated system.</p>
+            </div>
+          </article>
+
+          <!-- WEEK 5 -->
+          <article class="week-card">
+            <div>
+              <div class="week-header">
+                <span class="week-label">WEEK 05</span>
+                <span class="week-timing">Days 29–35</span>
+              </div>
+              <h3 class="week-title">File designing and testing using Fusion 360</h3>
+              <ul class="week-content-list">
+                <li>Refined assembly CAD files and geometry</li>
+                <li>Used Fusion 360 for detailed design review and audits</li>
+                <li>Checked component fit across mating parts</li>
+                <li>Checked mechanical sliding clearances</li>
+                <li>Reviewed kinematic movement paths digitally</li>
+                <li>Iterated digital design to eliminate interferences</li>
+                <li>Prepared the design files for prototyping</li>
+              </ul>
+            </div>
+            <div class="week-outcome-box">
+              <span class="week-outcome-header">Sprint Outcome</span>
+              <p class="week-outcome-text">The CAD files were refined into a stronger prototype-ready digital design.</p>
+            </div>
+          </article>
+
+          <!-- WEEK 6 (VERSION 2: PRE-PRINT CAD STATUS) -->
+          <article class="week-card">
+            <div>
+              <div class="week-header">
+                <span class="week-label">WEEK 06</span>
+                <span class="week-timing">Days 36–40</span>
+              </div>
+              <h3 class="week-title">Material finalisation</h3>
+              <ul class="week-content-list">
+                <li>Finalised material selection direction</li>
+                <li>Considered mechanical strength and shock tolerance</li>
+                <li>Evaluated procurement availability and supply</li>
+                <li>Reviewed manufacturing feasibility and injection compatibility</li>
+                <li>Analyzed production cost and weight constraints</li>
+                <li>Reviewed components with the final CAD design</li>
+                <li>Prepared documentation for physical evaluation</li>
+              </ul>
+
+              <!-- Pre-Print CAD Status (Version 2) -->
+              <div style="background-color: var(--off-white-surface); border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 12px 16px; margin: 16px 0;">
+                <strong style="color: var(--primary-orange); font-size: 0.85rem; display: block; margin-bottom: 4px;">Pre-Print CAD Status</strong>
+                <span style="font-size: 0.9rem; color: var(--dark-charcoal);">The CAD design and material selection are ready for the next stage of physical prototyping.</span>
+              </div>
+
+            </div>
+            
+            <div class="week-outcome-box">
+              <span class="week-outcome-header">Sprint Outcome</span>
+              <p class="week-outcome-text">CAD finalisation and material selection completed; digital design fully prepared for physical fabrication.</p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. MATERIALS & FABRICATION
+         ========================================================================= -->
+    <section class="section section-alt" id="materials">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-badge">06 • Materials &amp; Fabrication</span>
+          <h2 class="section-title">Material Finalisation</h2>
+          <p class="section-subtitle">Systematic assessment of physical properties required for luggage durability and prototyping.</p>
+        </header>
+
+        <div class="material-criteria-grid">
+          
+          <div class="criterion-card">
+            <div class="criterion-header">
+              <span class="criterion-icon">01</span>
+              <h4 class="criterion-name">Structural Strength</h4>
+            </div>
+            <p class="criterion-desc">Ability to endure repeated handling, drops, and transit friction without housing cracking or deformation.</p>
+          </div>
+
+          <div class="criterion-card">
+            <div class="criterion-header">
+              <span class="criterion-icon">02</span>
+              <h4 class="criterion-name">Availability</h4>
+            </div>
+            <p class="criterion-desc">Readily available polymer stock and filament supplies suitable for iterative local prototyping.</p>
+          </div>
+
+          <div class="criterion-card">
+            <div class="criterion-header">
+              <span class="criterion-icon">03</span>
+              <h4 class="criterion-name">Manufacturability</h4>
+            </div>
+            <p class="criterion-desc">Compatibility with additive manufacturing (3D printing) and eventual high-volume plastic injection molding.</p>
+          </div>
+
+          <div class="criterion-card">
+            <div class="criterion-header">
+              <span class="criterion-icon">04</span>
+              <h4 class="criterion-name">Cost Efficiency</h4>
+            </div>
+            <p class="criterion-desc">Balancing material resilience with affordable unit economics for consumer accessibility.</p>
+          </div>
+
+          <div class="criterion-card">
+            <div class="criterion-header">
+              <span class="criterion-icon">05</span>
+              <h4 class="criterion-name">Mechanism Compatibility</h4>
+            </div>
+            <p class="criterion-desc">Low surface friction between sliding internal components to ensure reliable trigger motion.</p>
+          </div>
+
+          <div class="criterion-card">
+            <div class="criterion-header">
+              <span class="criterion-icon">06</span>
+              <h4 class="criterion-name">Prototyping Suitability</h4>
+            </div>
+            <p class="criterion-desc">Rapid turnaround compatibility for validating physical tolerances and fit prior to hard tooling.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       8. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        
+        <div class="footer-brand-info">
+          <a href="#home" aria-label="ImpactOh Homepage">
+            <img src="logo.jpeg" alt="ImpactOh Logo" class="footer-logo-img">
+          </a>
+          <p class="footer-motto">Customisation meets impact detection.</p>
+          <p class="footer-desc">
+            An innovative luggage accessory concept developed during a 40-day development sprint for luggage personalization and physical shock awareness.
+          </p>
+        </div>
+
+        <nav class="footer-nav-grid" aria-label="Footer Navigation">
+          <div>
+            <h4 class="footer-col-title">Overview</h4>
+            <ul class="footer-links-list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About ImpactOh</a></li>
+              <li><a href="#problem">The Problem</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Research</h4>
+            <ul class="footer-links-list">
+              <li><a href="#research">Market Benchmarking</a></li>
+              <li><a href="#market-research">Market Research</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Development</h4>
+            <ul class="footer-links-list">
+              <li><a href="#development">40-Day Journey</a></li>
+              <li><a href="#materials">Materials &amp; Fabrication</a></li>
+              <li><a href="#top-nav">Back to Top ↑</a></li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span class="competition-badge">
+          🏆 BuzzTech 50-Day Startup Challenge
+        </span>
+        <p class="copyright-text">
+          &copy; 2026 ImpactOh. All rights reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
